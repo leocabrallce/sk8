@@ -8,7 +8,7 @@ import { Leva } from 'leva';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Leva collapsed={false} />
+    <Leva collapsed={true} hidden={true} />
     <App />
   </React.StrictMode>
 );
